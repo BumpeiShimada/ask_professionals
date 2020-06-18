@@ -22,6 +22,7 @@ const CenteredHeadlineContainer = styled.View`
   flex: 1;
   flex-direction: column;
   justify-content: center;
+  margin: 20px;
 `;
 
 const CenteredHeadline = styled(Headline)`
