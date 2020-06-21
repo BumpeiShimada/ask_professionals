@@ -63,7 +63,7 @@ users collection
   ├ emoji: string
   ├ mentionedProblems: string
   ├ name: string
-  ├ tags
+  ├ tags: array of map
     ├ name: string
     └ tagId: string
   └ updateTimestamp: timestamp
@@ -177,7 +177,7 @@ users コレクション
   ├ emoji: string
   ├ mentionedProblems: string
   ├ name: string
-  ├ tags
+  ├ tags: array of map
     ├ name: string
     └ tagId: string
   └ updateTimestamp: timestamp
