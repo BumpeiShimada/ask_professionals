@@ -31,7 +31,6 @@ const RegisterScreen = () => {
     SnackbarContext,
   );
 
-  // TODO Formik の isSubmitting で代替できないか確認する
   const [isProcessing, setIsProcessing] = useState<boolean>(false);
 
   const onError = (error: any) => {
