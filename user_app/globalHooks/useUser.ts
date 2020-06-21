@@ -54,7 +54,7 @@ export interface UserHook {
   ) => (values: AuthFormValue, onError: (error: any) => void) => Promise<void>;
   logout: (
     onSuccess: () => void,
-  ) => (onError: (error: any) => void) => Promise<void>;
+  ) => (onError: () => void) => Promise<void>;
 }
 
 function useUser(): UserHook {
