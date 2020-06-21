@@ -15,8 +15,6 @@ import GlobalSnackbar from './components/GlobalSnackbar';
 import useConversationState from './globalHooks/useConversationState';
 import ConversationStateContext from './globalContexts/ConversationStateContext';
 
-declare const global: {HermesInternal: null | {}};
-
 const theme = {
   ...DefaultTheme,
   colors: {
