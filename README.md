@@ -105,7 +105,7 @@ conversations collection
   └ messages collection 👈 This is collection inside a collection
     ├ content: string
     ├ createTimestamp: timestamp
-    ├ isUser: true
+    ├ isUser: boolean
     ├ sendTimestamp: timestamp
     └ updateTimestamp: timestamp
 ```
@@ -219,7 +219,7 @@ conversations コレクション
   └ messages コレクション 👈 こちらはコレクションの中にあるコレクションです
     ├ content: string
     ├ createTimestamp: timestamp
-    ├ isUser: true
+    ├ isUser: boolean
     ├ sendTimestamp: timestamp
     └ updateTimestamp: timestamp
 ```
