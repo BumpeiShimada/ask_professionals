@@ -64,8 +64,8 @@ users collection
   ├ mentionedProblems: string
   ├ name: string
   ├ tags: array of map
-    ├ name: string
-    └ tagId: string
+  │  ├ name: string
+  │  └ tagId: string
   └ updateTimestamp: timestamp
 
 advisors collection
@@ -77,8 +77,8 @@ advisors collection
   ├ isRegistrationDone: boolean
   ├ name: string
   ├ tags: array of map
-    ├ name: string
-    └ tagId: string
+  │  ├ name: string
+  │  └ tagId: string
   ├ twitterUrl: string
   └ updateTimestamp: timestamp
   
@@ -100,8 +100,8 @@ conversations collection
   ├ userMentionedProblems: string
   ├ userName: string
   ├ userTags: array of map
-    ├ name: string
-    └ tagId: string
+  │  ├ name: string
+  │  └ tagId: string
   └ messages collection 👈 This is collection inside a collection
     ├ content: string
     ├ createTimestamp: timestamp
@@ -178,8 +178,8 @@ users コレクション
   ├ mentionedProblems: string
   ├ name: string
   ├ tags: array of map
-    ├ name: string
-    └ tagId: string
+  │  ├ name: string
+  │  └ tagId: string
   └ updateTimestamp: timestamp
 
 advisors コレクション
@@ -191,8 +191,8 @@ advisors コレクション
   ├ isRegistrationDone: boolean
   ├ name: string
   ├ tags: array of map
-    ├ name: string
-    └ tagId: string
+  │  ├ name: string
+  │  └ tagId: string
   ├ twitterUrl: string
   └ updateTimestamp: timestamp
   
@@ -214,8 +214,8 @@ conversations コレクション
   ├ userMentionedProblems: string
   ├ userName: string
   ├ userTags: array of map
-    ├ name: string
-    └ tagId: string
+  │  ├ name: string
+  │  └ tagId: string
   └ messages コレクション 👈 こちらはコレクションの中にあるコレクションです
     ├ content: string
     ├ createTimestamp: timestamp
