@@ -2,6 +2,8 @@
 
 # Ask Professionals: A chat app framework
 
+![demo](https://raw.githubusercontent.com/wiki/BumpeiShimada/ask_professionals/images/demo.gif)
+
 This repository is an example of React Native application for having a chat with professionals.  
 
 In the repository you can find 2 applications:
@@ -120,6 +122,8 @@ Please see this document for instance to setup your own security rules: https://
 ---
 
 # Ask Professionals: 専門家に相談できるチャットアプリテンプレート
+
+![demo](https://raw.githubusercontent.com/wiki/BumpeiShimada/ask_professionals/images/demo.gif)
 
 このレポジトリは、審査の通った専門家に対して質問ができるアプリケーションの React Native による実装例になります。  
 レポジトリ内には2つのアプリがあり、それぞれ user_app が質問したい人向けのアプリで、advisor_app が質問に乗る専門家向けのアプリになっています。  
