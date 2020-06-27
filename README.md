@@ -36,6 +36,11 @@ https://www.youtube.com/watch?v=VGhLDTBgQlM
 6. Create user and advisor from actual devices or emulators https://www.youtube.com/watch?v=6bmwj0eo70c
 7. Start a chat 🙌
 
+## Admin Web Page
+
+You may find it difficult to see the conversations from Firestore Console.  
+Then please try this simple admin page: https://github.com/BumpeiShimada/ask_professionals_admin
+
 ## Tech Stacks
 
 ### Backend
@@ -151,6 +156,11 @@ https://www.youtube.com/watch?v=6bmwj0eo70c
     - other
 6. ユーザーとアドバイザーを実機/エミュレーターから作成する (参考: https://www.youtube.com/watch?v=6bmwj0eo70c )
 7. チャットを開始する🙌
+
+## アドミン画面
+
+Firestore のコンソール画面から、各ユーザーとアドバイザーがどのような会話をしているのかを見るのは大変です。  
+見やすいUIを提供するためにアドミン画面を用意したので、こちらも合わせてお使い下さい: https://github.com/BumpeiShimada/ask_professionals_admin
 
 ## 技術スタックについて
 
